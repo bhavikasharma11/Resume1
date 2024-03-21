@@ -64,19 +64,6 @@ body
     text-align: center;
     font-family:cursive;
 }
-.profilediv
-{
-    display: flexbox;
-    margin-left:30px;
-    width: 200px;
-    resize:initial;}
-#profile
-{
-    display: flexbox;
-    margin:5px;
-    height: 200px;
-    resize:initial;
-}
 
 
 .rightPanel
