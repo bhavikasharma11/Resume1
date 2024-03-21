@@ -1,0 +1,177 @@
+
+*{
+    color: white;
+}
+body
+{
+    scrollbar-width: thin;
+    background-color: grey;
+    background-size: contain;
+    background-attachment: fixed;
+    font-family:cursive;
+   /*  border: 5px solid greenyellow;*/ 
+}
+.indexicon
+{
+    width: 130px;
+    height: 45pt;
+    float: left;
+    box-shadow: 10px 7px 10px whitesmoke;
+}
+.header
+{
+    background-color: #00000054;
+    font-size: 130%;
+    padding: 10px;
+    height: 60px;
+    text-align: right;
+}
+.menubuttons
+{
+    color: white;
+    font-family:cursive;
+
+    margin-right: 15px;
+    background-color:rgba(247, 247, 247, 0.144);
+    border: none;
+    border-radius: 5pc;
+    width: 260px;
+    height: 70px;
+    margin: 5px;
+    border: none;
+    background-color:rgba(247, 247, 247, 0.144);
+}
+.menubuttons:hover
+{
+    background: rgba(247, 247, 247, 0.144);
+    box-shadow: 0px 0px 25px #000000;
+    transform: scale(1.2,1.2);
+}
+.content
+{
+    padding: 10px;
+    display: flex;
+}
+.leftPanel
+{
+    padding: 10px;
+    width: 21pc;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+.name
+{
+    text-align: center;
+    font-family:cursive;
+}
+.profilediv
+{
+    display: flexbox;
+    margin-left:30px;
+    width: 200px;
+    resize:initial;}
+#profile
+{
+    display: flexbox;
+    margin:5px;
+    height: 200px;
+    resize:initial;
+}
+
+
+.rightPanel
+{
+    padding: 10px;
+    width: 43pc;
+    color: rgb(0, 0, 0);
+    display: flexbox;
+    margin:5px;
+}
+.leftleft
+{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    display: flexbox;
+    background-color:#00000054;
+    margin:5px;
+}
+.Experience
+{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin:5px;
+}
+.Education
+{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin:5px;
+}
+.Exp1 
+{
+    background-color:  #2b2a2a3d;
+    display: flexbox;
+    padding: 10px;
+    margin:5px;
+    width: fit-content;
+}
+.Exp2
+{
+    background-color: #2b2a2a3d;
+    display: flexbox;
+    padding: 10px;
+    width: fit-content;
+    margin:5px;
+}
+.Edu1 
+{
+    background-color:  #2b2a2a3d;
+    display: flexbox;
+    padding: 10px;
+    margin:5px;
+    width: fit-content;
+}
+.Edu2
+{
+    background-color: #2b2a2a3d;
+    display: flexbox;
+    padding: 10px;
+    width: fit-content;
+    margin:5px;
+}
+#certificates
+{
+    padding: 10px;
+    margin-bottom: 40px;
+    color: black;
+    display:flex;
+    
+    margin: 10px;
+    border: 50px;
+    overflow-x: auto;
+}
+
+.footer_content
+{
+    padding: 10px;
+    text-align: center;
+    flex: 0 0 auto;
+    margin: 5px;
+}
+.footer_content:hover
+{
+    box-shadow: 0px 0px 700px #000000;
+    transform:scale(1.2,1.2);
+}
+img
+{
+    width: 100%;
+    height: 200px;
+}
+#contact_me
+{
+    background-color:  #2b2a2a3d;
+    padding: 5px;
+}
